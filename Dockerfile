@@ -1,4 +1,4 @@
-FROM tensorflow/serving:2.14.0
+FROM tensorflow/serving:2.14.1
 
 ENV MODEL_NAME=food_rec
 ENV TF_CPP_VMODULE=http_server=1
